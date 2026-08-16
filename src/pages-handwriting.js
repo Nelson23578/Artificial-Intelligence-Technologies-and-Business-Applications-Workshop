@@ -21,7 +21,7 @@ function loadMnistModel() {
 export function renderHandwriting(root) {
   root.innerHTML = shell(`
     <section class="lab-header">
-      <span class="page-kicker">LAB 01 · HANDWRITING</span>
+      <span class="page-kicker"> Workshop 01 · HANDWRITING</span>
       <h1>手寫數字辨識</h1>
       <p>選擇單一或多數字模式，在畫布上書寫後按「AI 辨識」。</p>
     </section>
@@ -140,7 +140,7 @@ function setupHandwriting() {
 
     try {
       status.className = 'status loading';
-      status.textContent = '正在載入／執行 MNIST CNN 模型…';
+      status.textContent = '正在載入模型…';
       const model = await loadMnistModel();
       status.textContent = '模型已載入，正在辨識…';
 

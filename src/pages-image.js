@@ -11,7 +11,7 @@ function loadMobileNet() {
 export function renderImageRecognition(root) {
   root.innerHTML = shell(`
     <section class="lab-header">
-      <span class="page-kicker">LAB 02 · IMAGE CLASSIFICATION</span>
+      <span class="page-kicker">Workshop 02 · IMAGE CLASSIFICATION</span>
       <h1>圖片辨識</h1>
       <p>上傳一張 JPG、PNG 或 WEBP 圖片，再按「AI 辨識」查看分類結果。</p>
     </section>

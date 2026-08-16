@@ -5,8 +5,8 @@ export function shell(content, options = {}) {
       <a class="brand" href="#/home" aria-label="回到首頁">
         <span class="brand-mark">AI</span>
         <span>
-          <strong>AI Experience Lab</strong>
-          <small>人工智慧技術與商業應用</small>
+          <strong>人工智慧技術與商業應用</strong>
+          <small>Artificial Intelligence Technologies and Business Applications</small>
         </span>
       </a>
       <nav class="nav-links" aria-label="工作坊導覽">
