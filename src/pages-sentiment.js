@@ -18,7 +18,7 @@ export function renderSentiment(root) {
   root.innerHTML = shell(`
     <section class="lab-header">
       <span class="page-kicker">Workshop 03 · NLP SENTIMENT</span>
-      <h1>NLP 評論情緒分析</h1>
+      <h1>NLP 評論情感分析</h1>
       <p>輸入單筆評論，或上傳 Excel / CSV 進行批次分析。</p>
     </section>
 
